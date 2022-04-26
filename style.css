@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400&display=swap');
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.card-image {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+   
+    
+}
+
+.card-image:hover  {
+    opacity: 0.6;
+}
+
+
+
+.footer-image {
+
+    width: 60px;
+    height: 60px;
+    object-fit:cover;
+    border-radius: 50%;
+
+}
+
+
+body {
+    min-height: 100vh;
+	width: 100%;
+}
+
+.top-page {
+    /* position: relative;
+    left: 0%;
+    width: 800px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ 
+}
+
+.top-page h1 {
+    font-size: 60px;
+  
+    width: 700px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+ 
+   
+}
+
+.top-page p {
+    font-size: 35px;
+ 
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+
+    width: 700px;
+}
+
+
+
+
+
+
+.card1 {
+    width: 500px;
+   
+  
+    padding: 20px;
+    border-radius: 20px;
+    /* box-shadow: 1px 1px 10px  1px black; */
+    justify-self: stretch;
+
+    
+   
+}
+
+
+.card-container {
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+
+
+   
+
+   
+   
+
+
+    /* display: flex;
+    flex-direction: column;
+    gap: 2em;
+    
+  
+    align-items: center;
+    justify-content: center; */
+
+}
+
+
+.article {
+    height: 300px;
+    overflow: hidden;
+  
+    padding-bottom: 37px;
+}
+
+
+.article, .footer-page {
+    margin: 20px;
+  
+}
+
+
+
+
+
+.article h3 {
+  
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #8479E1;
+  
+}
+
+
+.article h2 {
+    font-family: 'Roboto Slab', serif;
+   
+}
+
+
+.footer-page {
+    display: grid;
+    grid-template-columns: 70px 160px;
+    grid-template-rows: repeat(1, 80px);
+    grid-column-start: auto;
+    gap: 1em;
+  
+
+  
+   
+}
+
+
+.footer-page .c1 {
+   position: relative;
+   bottom: 20px;  
+   
+
+}
+
+
+ .c1 p {
+    position: relative;
+    bottom: 15px;
+    color: grey;
+ }
+
+ .article p {
+     font-size: 19px;
+     line-height: 1.4em;
+     margin-bottom: 40px;
+ }
+
+ .viewbtn{
+     border: 1px solid black;
+     padding: 20px;
+     text-align: center;
+     border-radius: 25px;
+     text-decoration: none;
+     font-size: 21px;
+     font-family: 'Roboto Slab', serif;
+     font-weight: 400;
+     box-shadow:   1px  1px 1px  1px black;
+     margin-bottom: 30px;
+     margin-right: 60px;
+    
+ }
+
+
+
+/* 
+ .viewbtn:hover {
+    background-color: rgb(15, 14, 14);
+    color: white;
+    
+   
+} */
+
+
+
+
+
+
+.units-top {
+    padding-bottom: 40px;
+  
+}
+
+
+
+.c1 h4 {
+    font-size: 22px;
+}
+
+
+
+
+
+
+ @media only screen 
+ and (min-width: 90em){
+
+ .card-container {
+       display: grid;
+        grid-template-columns: repeat(3, 470px);
+        gap: 5em;
+      
+
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 1px 1px 1px black;
+   
+    } 
+
+    .top-page {
+        position: relative;
+        left: 30%;
+        width: 900px;
+     
+    }
+    
+    .top-page h1 {
+        font-size: 60px;
+      
+        width: 800px;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+       
+    }
+
+
+    
+    .top-page p {
+        font-size: 35px;
+     
+        text-align: center;
+        position: relative;
+        bottom: 30px;
+        color: grey;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 100;
+        width: 800px;
+    }
+    
+    
+
+}
